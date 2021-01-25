@@ -10,3 +10,7 @@ require_relative 'lib/event'
 
 # Maintenant c'est open bar pour tester ton application. Tous les fichiers importants sont chargés
 # Tu peux faire User.new, Event.new, binding.pry, User.all, etc.
+
+binding.pry
+
+Event.new("2021-02-02 10:00", 45, "rdv Macron", ["claude@lulu.fr", "patrice@lasagne.com"])
